@@ -173,12 +173,23 @@ Sensor Status (sensor_status) is an encoded enumeration as follows
   "uptime":1670133,
   "rssi":-62,
   "timestamp":1495724691,
-  "reset_flags": 234881026,
+  "reset_flags": "BOR,PIN,POR",
   "stack": "1616,1608",
   "seq": 48
 }
 {% endhighlight %}
 </div>
+Reset Flag Values
+<table>
+  <tr><td>Value</td><td>Description</td></tr>
+  <tr><td>BOR</td><td>Brownout reset</td></tr>
+  <tr><td>PIN</td><td>PIN reset</td></tr>
+  <tr><td>POR</td><td>Power reset</td></tr>
+  <tr><td>SFT</td><td>Software reset</td></tr>
+  <tr><td>WDG</td><td>Watchdog reset</td></tr>
+  <tr><td>WWD</td><td>Window watchdog reset</td></tr>
+  <tr><td>LPW</td><td>Low-power reset</td></tr>
+</table>
 
 <br/><br/>
 
